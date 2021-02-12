@@ -13,6 +13,18 @@ public static void main(String[] args) {
 		bb.displayAddress();
 		int ff=bb.myTotal(56, 122);
 		System.out.println(ff);
+		System.out.println("**************");
+		
+		Computer ll=new Computer();
+		ll.assembleComputer();
+		ll.assembleMoniter();
+		
+		Laptop vv=new Laptop();
+		vv.assembleComputer();
+		vv.assembleMoniter();
+		vv.displaySize();
+		
+		
 		
 		
 		
